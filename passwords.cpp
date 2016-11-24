@@ -8,7 +8,7 @@ int main()
 	cout<<"READY SIDDHARTH LETS ROCK!"<<endl;
 	string c="123456789abcdefghijklmnopqrstuvwxyz !@#$%^&*()_+-=~`/.,ABCDEFGHIKJLMNOPQRSTUVWXYZ";
 	cout<<"no of total possible chars are"<<c.size()<<endl;
-	cin>>l;
+	cout<<"generating passwords"<<endl;
 	for(int i=0;c[i]!='\0';i++)
 	{
 	q.push(t+c[i]);
